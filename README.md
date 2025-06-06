@@ -1,54 +1,81 @@
-# Heart Disease Prediction App
+# Heart Disease Prediction Web Application
 
-This repository contains a complete pipeline for predicting heart disease risk using BRFSS 2015 data:
-1. Exploratory Data Analysis & Model Training (in `notebooks/EDA_DataPrep_Train.ipynb`).
-2. A saved XGBoost model (`models/xgb_model_v1.0.pkl`).
-3. A Streamlit app (`app/app.py`) that loads the model and provides a web interface.
+![App Screenshot](assets/app_screenshot.png) <!-- It's highly recommended you add a screenshot of your app here -->
+
+This project is an end-to-end data science application that predicts the likelihood of a person having heart disease based on various health indicators. The project includes a complete workflow from data exploration and model training in a Jupyter Notebook to a deployed interactive web application built with Streamlit.
+
+**Live Demo:** [**You can deploy your app for free and link it here!**](https-your-app-link-here) <!-- I highly recommend deploying on Streamlit Community Cloud and adding the link -->
 
 ---
 
-## Folder Structure
+## Features
 
-heart-disease-prediction/
+- **Exploratory Data Analysis (EDA):** In-depth analysis of the BRFSS2015 dataset to understand feature distributions and correlations.
+- **Data Preprocessing:** Handling of categorical and numerical features.
+- **Handling Class Imbalance:** Explored techniques like SMOTE (Oversampling), RandomUnderSampler (Undersampling), and SMOTEENN to address the imbalanced dataset.
+- **Model Training & Evaluation:** Trained and evaluated multiple classification models, selecting Gradient Boosting as the final model based on performance metrics like AUC score.
+- **Interactive Web App:** A user-friendly interface built with Streamlit that allows users to input their health metrics and receive a real-time prediction.
 
-├── app/
+---
 
-│ ├── app.py
+## Tech Stack
 
-│ ├── requirements.txt
+- **Data Analysis & Modeling:** Python, Pandas, NumPy, Scikit-learn, XGBoost, Matplotlib, Seaborn
+- **Web Application:** Streamlit
+- **Model Persistence:** Joblib
 
-│ └── README.md
+---
 
-├── data/
-
-│ └── heart_disease_health_indicators_BRFSS2015.csv
+## Project Structure
 
 ├── models/
 
-│ └── xgb_model_v1.0.pkl
+│ └── gb_model_v1.0.pkl
 
 ├── notebooks/
 
 │ └── EDA_DataPrep_Train.ipynb
 
-└── README.md
+├── data/
+
+│ └── heart_disease_health_indicators_BRFSS2015.csv
+
+├── assets/
+
+│ └── app_screenshot.png
+
+├── app.py
+
+├── README.md
+
+└── requirements.txt
 
 ---
 
-## How to Get Started
+## Setup and Run
 
-1. **Clone this repository**  
-   ```bash
-   git clone https://github.com/<YOUR_USERNAME>/heart-disease-prediction.git
-   cd heart-disease-prediction
-   
-2. **Install dependencies for the Streamlit app**
-    ```bash
-    cd app
+To run this project locally, please follow these steps:
+
+1.  **Clone the repository:**
+    ```sh
+    git clone https://github.com/YourUsername/heart-disease-prediction-streamlit.git
+    cd heart-disease-prediction-streamlit
+    ```
+
+2.  **Create a virtual environment (recommended):**
+    ```sh
+    python -m venv venv
+    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+    ```
+
+3.  **Install the required dependencies:**
+    ```sh
     pip install -r requirements.txt
+    ```
 
-4. **Run the Streamlit App**
-   streamlit run app.py
+4.  **Run the Streamlit application:**
+    ```sh
+    streamlit run app.py
+    ```
 
-   - A browser window should open at http://localhost:8501.
-   - Input patient information on the sidebar and view the predicted risk.
+The application should now be running in your web browser!
