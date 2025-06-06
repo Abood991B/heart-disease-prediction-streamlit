@@ -3,7 +3,7 @@ import joblib
 import pandas as pd
 
 # Load the saved model
-model = joblib.load('models/xgb_model_v1.0.pkl')
+model = joblib.load('models/gb_model_v1.0.pkl')
 
 # Define the Streamlit app
 def main():
