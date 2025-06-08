@@ -1,6 +1,6 @@
 # Heart Disease Prediction Web Application
 
-![App Screenshot](assets/app_screenshot.png)
+![App Screenshot](assets/app_screen.png)
 
 
 This project is an end-to-end data science application that predicts the likelihood of a person having heart disease based on various health indicators. The project includes a complete workflow from data exploration and model training in a Jupyter Notebook to a deployed interactive web application built with Streamlit.
