@@ -93,7 +93,7 @@ with st.sidebar:
         "[![GitHub](https://img.shields.io/badge/GitHub-Profile-blue?style=for-the-badge&logo=github)](https://github.com/Abood991B)"
     )
     st.markdown(
-        "[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/Abdulrahman-Baidaq)"
+        "[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/abdulrahman-baidaq-05781b2a9)"
     )
 
 # --- MAIN PAGE ---
