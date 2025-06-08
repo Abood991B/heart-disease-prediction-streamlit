@@ -30,10 +30,7 @@ with st.sidebar:
     st.write("---")
     st.write("**Connect with me:**")
     st.markdown(
-        "[![GitHub](https://img.shields.io/badge/GitHub-Profile-blue?style=for-the-badge&logo=github)](https://github.com/YourUsername)"
-    )
-    st.markdown(
-        "[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/YourProfile)"
+        "[![GitHub](https://img.shields.io/badge/GitHub-Profile-blue?style=for-the-badge&logo=github)](https://github.com/Abood991B)"
     )
 
 
