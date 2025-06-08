@@ -25,7 +25,7 @@ with st.sidebar:
     st.info(
         "This application uses a Gradient Boosting machine learning model to predict "
         "the likelihood of heart disease. The model was trained on the BRFSS 2015 dataset. "
-        "This is a portfolio project to demonstrate an end-to-end data science workflow."
+        "This is a project to demonstrate an end-to-end data science workflow."
     )
     st.write("---")
     st.write("**Connect with me:**")
