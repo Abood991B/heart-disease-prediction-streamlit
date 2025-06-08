@@ -92,7 +92,9 @@ with st.sidebar:
     st.markdown(
         "[![GitHub](https://img.shields.io/badge/GitHub-Profile-blue?style=for-the-badge&logo=github)](https://github.com/Abood991B)"
     )
-
+    st.markdown(
+        "[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/Abdulrahman-Baidaq)"
+    )
 
 # --- MAIN PAGE ---
 st.title("Heart Disease Early Prediction App 🩺")
