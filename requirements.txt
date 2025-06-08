@@ -5,4 +5,4 @@ scikit-learn==1.6.1
 xgboost==3.0.2
 matplotlib==3.10.3
 seaborn==0.13.2
-imblearn==0.13.0
+imbalanced-learn==0.13.0
