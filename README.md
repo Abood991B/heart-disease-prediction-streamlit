@@ -1,10 +1,11 @@
 # Heart Disease Prediction Web Application
 
-![App Screenshot](assets/app_screenshot.png) <!-- It's highly recommended you add a screenshot of your app here -->
+![App Screenshot](assets/app_screenshot.png)
+
 
 This project is an end-to-end data science application that predicts the likelihood of a person having heart disease based on various health indicators. The project includes a complete workflow from data exploration and model training in a Jupyter Notebook to a deployed interactive web application built with Streamlit.
 
-**Live Demo:** [**You can deploy your app for free and link it here!**](https-your-app-link-here) <!-- I highly recommend deploying on Streamlit Community Cloud and adding the link -->
+**Live Demo →** [**https://heart-disease-prediction-app-e6pfbpgxakjux7asffax7w.streamlit.app/**](https://heart-disease-prediction-app-e6pfbpgxakjux7asffax7w.streamlit.app/)
 
 ---
 
@@ -34,7 +35,7 @@ This project is an end-to-end data science application that predicts the likelih
 
 ├── notebooks/
 
-│ └── EDA_DataPrep_Train.ipynb
+│ └── Heart_Disease_Model_Development.ipynb
 
 ├── data/
 
@@ -44,7 +45,11 @@ This project is an end-to-end data science application that predicts the likelih
 
 │ └── app_screenshot.png
 
+├── .gitignore
+
 ├── app.py
+
+├── LICENSE
 
 ├── README.md
 
